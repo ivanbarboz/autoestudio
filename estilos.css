@@ -1,0 +1,138 @@
+body{
+    background-color:rgb(27, 25, 25);
+}
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.principal {
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px; /* Añade un margen inferior de 10 píxeles */
+    display: flex;
+    background-color: rgb(54, 38, 38);
+}
+
+.contenedor-imagen {
+    position: relative;
+}
+
+.causa {
+    position: absolute;
+    font-size:90px;
+    top: 15%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    color:white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-decoration: underline; /* Añade subrayado al texto */
+   
+}
+.tech {
+    position: absolute;
+    font-size:90px;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-decoration: underline; /* Añade subrayado al texto */
+}
+.categorias{
+
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boton-añadir{
+    font-size: 12px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de apuntador */
+    margin-left: 10px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color de fondo */
+    }
+.boton-añadir:hover {
+    background-color: #45a049; /* Color de fondo verde más oscuro al pasar el cursor */
+}
+
+.descripcion{
+    font-size: 15px;
+}
+
+
+.categorias-text{
+    color: aquamarine;
+}
+.vendidos{
+    color: aquamarine;
+}
+.card{
+    background-color:rgb(109, 93, 72);
+    border-radius: 20px;
+    width: 260px;
+}
+.contenedor-tarjeta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    
+}
+.imagen-vendida {
+    height: 160px;
+    margin-top: 20px; 
+    width: 200px;
+    
+}
+
+.contenedor{
+    width: 200px;
+    height: 180px;
+}
+
+.imagen-interactiva {
+        width: 250px;
+        transition: transform 0.3s ease;
+        margin-right: 30px;
+        margin-bottom: 35px;
+        height: 160px;
+        border-radius: 30px;
+    }
+
+    /* Estilos para la imagen al pasar el mouse */
+.imagen-interactiva:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% al pasar el mouse */
+}
+.categoria-contenedor {
+    position: relative;
+    display: inline-block; /* Para que los contenedores se muestren en línea */
+}
+
+.texto-superpuesto {
+    position: absolute;
+    bottom: 50px; /* Distancia desde la parte inferior */
+    left: 40%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente */
+    color: white;
+    font-size: 18px;
+}
+.puntos{
+    color: azure;
+}
+.datos{
+    color: white;
+}
+.tarjeta{
+    margin-right: 4%;
+    margin-bottom: 4%px;
+    margin-top: 4%;
+    text-align: center;
+}
